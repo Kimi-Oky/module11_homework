@@ -12,7 +12,7 @@ for (let i = 0; i < n.length; i++){
   } else if (n[i] % 2 === 1) {
     odd++;
   } else if (n[i] == null){
-    nullS++; // не разобрался, почему null считает за чётное число
+    nullS++; // так и не разобрался, почему null считает за чётное число
   } else {
     others++
   }
